@@ -1,6 +1,6 @@
 package abstractsupeheroes;
 
-public class SpiderMan extends SuperHero{
+public class SpiderMan extends SuperHero implements IFlightSpeed{
 
 
     public SpiderMan(String realN, String[] specialP) {
@@ -9,5 +9,10 @@ public class SpiderMan extends SuperHero{
 
     String[] listPowers() {
         return getSpecialPowers();
+    }
+
+
+    public double flightSpeed() {
+        return 45.50; //GLIDING
     }
 }

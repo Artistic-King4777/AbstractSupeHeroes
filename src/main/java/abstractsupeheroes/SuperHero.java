@@ -31,14 +31,6 @@ public abstract class SuperHero {
     }
 
 
-//    @Override
-//    public String toString() {
-//        return "SuperHero{" +
-//                "realName='" + realName + '\'' +
-//                ", specialPowers=" + Arrays.toString(specialPowers) +
-//                '}';
-//    }
-
 
     @Override
     public String toString() {
